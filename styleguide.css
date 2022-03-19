@@ -1,0 +1,1069 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700,500,600|Mulish:400,500|Mitr:400");
+
+:root {
+    --black: 
+  rgba(0, 0, 0, 1);
+    --bunker: 
+  rgba(20, 21, 22, 1);
+    --concord: 
+  rgba(124, 124, 124, 1);
+    --gallery: 
+  rgba(239, 239, 239, 1);
+    --white: 
+  rgba(255, 255, 255, 1);
+  
+    --font-size-s: 14px;
+    --font-size-m: 16px;
+    --font-size-l: 18px;
+    --font-size-xl: 36px;
+    --font-size-xxl: 48px;
+    --font-size-xxxl: 49px;
+  
+    --font-family-mitr: "Mitr";
+    --font-family-montserrat: "Montserrat";
+    --font-family-mulish: "Mulish";
+  }
+  
+  a{
+    color : white;
+    
+  }
+  a:hover{
+    color : #34a136;;
+    
+  }
+  
+  .montserrat-semi-bold-white-16px {
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-m);
+    font-weight: 600;
+    font-style: normal;
+  }
+  .montserrat-bold-white-49px {
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xxxl);
+    font-weight: 700;
+    font-style: normal;
+  }
+  .mulish-medium-bunker-14px {
+    color: var(--bunker);
+    font-family: var(--font-family-mulish);
+    font-size: var(--font-size-s);
+    font-weight: 500;
+    font-style: normal;
+  }
+  .mulish-normal-concord-16px {
+    color: var(--concord);
+    font-family: var(--font-family-mulish);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .montserrat-semi-bold-white-36px {
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+    font-style: normal;
+  }
+  .montserrat-normal-bunker-16px {
+    color: var(--bunker);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .mulish-medium-bunker-16px {
+    color: var(--bunker);
+    font-family: var(--font-family-mulish);
+    font-size: var(--font-size-m);
+    font-weight: 500;
+    font-style: normal;
+  }
+  .montserrat-medium-white-16px {
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-m);
+    font-weight: 500;
+    font-style: normal;
+  }
+  .mulish-normal-bunker-16px {
+    color: var(--bunker);
+    font-family: var(--font-family-mulish);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .montserrat-bold-white-48px {
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xxl);
+    font-weight: 700;
+    font-style: normal;
+  }
+  .mulish-normal-white-16px {
+    color: var(--white);
+    font-family: var(--font-family-mulish);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .border-1px-gallery {
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--gallery);
+  }
+  .montserrat-bold-bunker-48px {
+    color: var(--bunker);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xxl);
+    font-weight: 700;
+    font-style: normal;
+  }
+  .mitr-normal-white-48px {
+    color: var(--white);
+    font-family: var(--font-family-mitr);
+    font-size: var(--font-size-xxl);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .montserrat-semi-bold-bunker-18px {
+    color: var(--bunker);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-l);
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .template {
+    align-items: flex-start;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    height: 5900px;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .hidden,
+  .hidden * {
+    pointer-events: none;
+    visibility: hidden;
+  }
+  
+  .flex-row-2 {
+    align-items: center;
+    /* align-self: center; */
+    display: flex;
+    height: 28px;
+    margin-left: 251px;
+    margin-top: 46px;
+    min-width: 989px;
+  }
+  
+  .know-about-prevention {
+    letter-spacing: 0;
+    margin-left: 12px;
+    margin-top: 2px;
+    min-height: 22px;
+    min-width: 220px;
+  }
+  
+  .uilheart-medical {
+    align-self: flex-end;
+    height: 25px;
+    width: 25px;
+  }
+  
+  .vector-1 {
+    align-self: flex-start;
+    height: 22px;
+    margin-left: 85px;
+    width: 22px;
+  }
+  
+  .need-monetary-help {
+    letter-spacing: 0;
+    margin-left: 18px;
+    min-height: 22px;
+    min-width: 200px;
+  }
+  
+  .reminders-and-notifications {
+    align-self: flex-start;
+    letter-spacing: 0;
+    margin-left: 15px;
+    margin-top: 1px;
+    min-height: 22px;
+  }
+  
+  .vector-2 {
+    height: 22px;
+    margin-left: 103px;
+    width: 22px;
+  }
+  
+  .flex-col {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 1266px;
+    width: 1848px;
+  }
+  
+  .why-derma-genics {
+    letter-spacing: 0;
+    margin-right: 388px;
+    margin-top: 106px;
+    min-height: 59px;
+    min-width: 498px;
+  }
+  
+  .we-take-care-of-you {
+    letter-spacing: 0;
+    /*line-height: 122.6px;*/
+    margin-right: 395px;
+    margin-top: 33px;
+    min-height: 48px;
+    text-align: center;
+    /*white-space: nowrap;*/
+    width: 457px;
+  }
+  
+  .overlap-group2 {
+    height: 800px;
+    position: relative;
+    width: 1848px;
+  }
+  
+  .frame-244 {
+    height: 362px;
+    left: 777px;
+    object-fit: cover;
+    position: absolute;
+    top: 161px;
+    width: 543px;
+  }
+  
+  .frame-355 {
+    height: 292px;
+    left: 734px;
+    object-fit: cover;
+    position: absolute;
+    top: 274px;
+    width: 153px;
+  }
+  
+  .btn-3 {
+    align-items: flex-start;
+    background-image: url(https://anima-uploads.s3.amazonaws.com/projects/623471f2f5e4e17d76f28102/releases/62347231ec23883e8ed4c096/img/rectangle-3-2@2x.png);
+    background-size: 100% 100%;
+    display: flex;
+    height: 46px;
+    left: 150px;
+    min-width: 165px;
+    padding: 10px 14px;
+    position: absolute;
+    top: 489px;
+  }
+  
+  .start-free-trail {
+    letter-spacing: 0;
+    line-height: 50px;
+    min-height: 24px;
+    text-align: center;
+    white-space: nowrap;
+    width: 176px;
+  }
+  
+  .image-1 {
+    height: 87px;
+    left: 56px;
+    object-fit: cover;
+    position: absolute;
+    top: 37px;
+    width: 156px;
+  }
+  
+  .derma-genics {
+    left: 233px;
+    letter-spacing: 0;
+    line-height: 150px;
+    position: absolute;
+    /* top: 44px; */
+    white-space: nowrap;
+  }
+  
+  .span1 {
+    color: 
+  #34a136;
+    font-family: var(--font-family-mitr);
+    font-size: var(--font-size-xxl);
+    font-weight: 400;
+  }
+  
+  .rectangle-1-2 {
+    background-color: var(--bunker);
+    height: 800px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  
+  .nav-bar {
+    align-items: flex-start;
+    display: flex;
+    height: 46px;
+    left: 548px;
+    min-width: 1140px;
+    padding: 10px 195px;
+    position: absolute;
+    top: 62px;
+  }
+  
+  .exemplets {
+    height: 24px;
+    object-fit: cover;
+    width: 94px;
+  }
+  
+  .pricing {
+    letter-spacing: 0;
+    /*line-height: 150px;*/
+     margin-left: 68px;
+    min-height: 24px;
+    min-width: 94px;
+    white-space: nowrap;
+  }
+  
+  .about {
+    letter-spacing: 0;
+    /*line-height: 150px;*/
+    margin-left: 40px;
+    min-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .derma-genics-is-desig {
+    left: 153px;
+    letter-spacing: 0;
+    /* line-height: 150px; */
+    position: absolute;
+    top: 387px;
+    /* white-space: nowrap; */
+    width: 441px;
+}
+  
+  .together-lets-beat-cancer {
+    left: 152px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 231px;
+    width: 489px;
+  }
+  
+  .test-with-us {
+    left: 800px;
+    letter-spacing: 0;
+    /*line-height: 150px;*/
+    position: absolute;
+    top: 73px;
+    white-space: nowrap;
+  }
+  
+  .btn-4 {
+    align-items: flex-start;
+    background-image: url(https://anima-uploads.s3.amazonaws.com/projects/623471f2f5e4e17d76f28102/releases/62347231ec23883e8ed4c096/img/rectangle-3-2@2x.png);
+    background-size: 100% 100%;
+    display: flex;
+    height: 46px;
+    margin-right: 341px;
+    /*margin-top: 61px;*/
+    min-width: 165px;
+    padding: 10px 14px;
+  }
+  
+  .flex-row {
+    align-items: flex-start;
+    display: flex;
+    margin-right: 387px;
+    margin-top: 90px;
+    min-width: 921px;
+  }
+  
+  .upload-check {
+    letter-spacing: 0;
+    margin-left: 13px;
+    min-height: 22px;
+    min-width: 148px;
+  }
+  
+  .detected-get-treated {
+    letter-spacing: 0;
+    margin-left: 18px;
+    min-height: 22px;
+    min-width: 207px;
+  }
+  
+  .group {
+    height: 19px;
+    width: 22px;
+  }
+  
+  .scared-cope-with-us {
+    letter-spacing: 0;
+    margin-left: 13px;
+    min-height: 22px;
+  }
+  
+  .fluentpeople-audience-20-regular {
+    height: 23px;
+    margin-left: 91px;
+    width: 29px;
+  }
+  
+  .vector {
+    height: 16px;
+    margin-left: 157px;
+    width: 22px;
+  }
+  
+  .flex-row-1 {
+    align-items: flex-start;
+    /* align-self: center; */
+    display: flex;
+    height: 100px;
+    margin-left: 251px;
+    margin-top: 9px;
+    min-width: 913px;
+  }
+  
+  .put-your-pincode-and {
+    letter-spacing: 0;
+    /*line-height: 150px;*/
+    margin-left: 114px;
+    min-height: 96px;
+    /*white-space: nowrap;*/
+    width: 228px;
+  }
+  
+  .you-can-interact-wit {
+    /* align-self: flex-start; */
+    letter-spacing: 0;
+    /*line-height: 150px;*/
+    margin-left: 114px;
+    min-height: 96px;
+    /*white-space: nowrap;*/
+    width: 228px;
+  }
+  
+  .we-come-up-with-a-co {
+    letter-spacing: 0;
+    /*line-height: 150px;*/
+    min-height: 96px;
+    /*white-space: nowrap;*/
+    width: 228px;
+    /* margin-left: 250px; */
+  }
+  
+  .flex-col-1 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: -339px;
+    margin-top: 5px;
+    min-height: 4146px;
+    width: 1924px;
+  }
+  
+  .overlap-group {
+    align-items: flex-end;
+    background-color: var(--bunker);
+    display: flex;
+    flex-direction: column;
+    margin-left: 194px;
+    margin-top: 85px;
+    min-height: 2420px;
+    padding: 61px 64px;
+    width: 1440px;
+  }
+  
+  .how-to-use-us {
+    align-self: center;
+    letter-spacing: 0;
+    margin-left: 1px;
+    min-height: 72px;
+    text-align: center;
+    width: 577px;
+  }
+  
+  .flex-row-4 {
+    align-items: flex-start;
+    display: flex;
+    height: 988px;
+    margin-right: 28px;
+    margin-top: 88px;
+    min-width: 1198px;
+  }
+  
+  .flex-col-2 {
+    align-items: flex-start;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    min-height: 910px;
+    width: 570px;
+  }
+  
+  .overlap-group3 {
+    height: 399px;
+    margin-top: 299px;
+    position: relative;
+    width: 570px;
+  }
+  
+  .vector-3 {
+    height: 26px;
+    left: 522px;
+    position: absolute;
+    top: 14px;
+    width: 32px;
+  }
+  
+  .x1 {
+    height: 7px;
+    left: 550px;
+    position: absolute;
+    top: 13px;
+    width: 3px;
+  }
+  
+  .pexels-linkedin-sale {
+    height: 379px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 20px;
+    width: 555px;
+  }
+  
+  .ellipse-3 {
+    background-color: 
+  #006aff;
+    border: 1px solid 
+  #f5f5f5;
+    border-radius: 6px;
+    height: 12px;
+    left: 546px;
+    position: absolute;
+    top: 10px;
+    width: 12px;
+  }
+  
+  .rectangle-76 {
+    height: 53px;
+    left: 506px;
+    position: absolute;
+    top: 0;
+    width: 64px;
+  }
+  
+  .step-1-click-a-picture-upload {
+    letter-spacing: 0;
+    min-height: 44px;
+  }
+  
+  .flex-row-5 {
+    align-items: center;
+    display: flex;
+    height: 20px;
+    margin-top: 26px;
+    min-width: 123px;
+  }
+  
+  .get-started {
+    letter-spacing: 0;
+    /* min-height: 20px; */
+    min-width: 94px;
+  }
+  
+  .arrow {
+    height: 2px;
+    margin-left: 12px;
+    margin-top: 1.5px;
+    width: 17px;
+  }
+  
+  .the-images-are-proce {
+    letter-spacing: 0;
+    /* line-height: 150px; */
+    margin-bottom: -54px;
+    margin-top: 26px;
+    min-height: 96px;
+    /* white-space: nowrap; */
+  }
+  
+  .flex-col-3 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 73px;
+    min-height: 917px;
+    width: 555px;
+  }
+  
+  .flex-row-6 {
+    align-items: center;
+    align-self: flex-start;
+    display: flex;
+    height: 20px;
+    margin-left: 40px;
+    margin-top: 2px;
+    min-width: 123px;
+  }
+  
+  .step-2-view-the-results {
+    letter-spacing: 0;
+    margin-right: 30px;
+    margin-top: 302px;
+    min-height: 44px;
+    min-width: 445px;
+  }
+  
+  .derma-genics-is-desig-1 {
+    letter-spacing: 0;
+    /* line-height: 150px; */
+    margin-bottom: -6px;
+    margin-right: 34px;
+    margin-top: 26px;
+    min-height: 144px;
+    /* white-space: nowrap; */
+    width: 441px;
+  }
+  
+  .pexels-rodnae-productions-7503372-1 {
+    height: 379px;
+    object-fit: cover;
+    width: 555px;
+  }
+  
+  .flex-col-4 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 229px;
+    min-height: 809px;
+    width: 1280px;
+  }
+  
+  .did-you-know-the-demographics {
+    letter-spacing: 0;
+    margin-right: 31px;
+    min-height: 59px;
+    min-width: 851px;
+    text-align: center;
+  }
+  
+  .whats-app-image-2022-03-10-at-1000-1 {
+    height: 537px;
+    margin-top: 141px;
+    margin-right: 141px;
+    object-fit: cover;
+    width: 1250px;
+  }
+  
+  .youre-not-alone-ke {
+    letter-spacing: 0;
+    line-height: 50px;
+    margin-bottom: 80px;
+    margin-right: 33px;
+    margin-top: 48px;
+    min-height: 24px;
+    min-width: 701px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .flex-row-8 {
+    align-items: flex-start;
+    display: flex;
+    margin-top: 24px;
+    min-width: 1924px;
+  }
+  
+  .rectangle-1 {
+    height: 201px;
+    margin-left: 31px;
+    width: 360px;
+  }
+  
+  .rectangle-1-1 {
+    height: 201px;
+    margin-left: 31px;
+    object-fit: cover;
+    width: 360px;
+  }
+  
+  .rectangle {
+    height: 201px;
+    object-fit: cover;
+    width: 360px;
+  }
+  
+  .prevention-is-always-better-than-cure {
+    letter-spacing: 0;
+    margin-left: 195px;
+    margin-top: 133px;
+    min-height: 59px;
+    min-width: 939px;
+    text-align: center;
+  }
+  
+  .flex-row-3 {
+    align-items: flex-start;
+    display: flex;
+    height: 126px;
+    margin-left: 251px;
+    min-width: 957px;
+  }
+  
+  .the-patient-will-be {
+    letter-spacing: 0;
+    /* line-height: 150px; */
+    margin-left: 114px;
+    min-height: 120px;
+    /* white-space: nowrap; */
+    width: 228px;
+  }
+  
+  .since-treatment-is-c {
+    /* align-self: flex-end; */
+    letter-spacing: 0;
+    /* line-height: 150px; */
+    margin-left: 115px;
+    min-height: 120px;
+    /* white-space: nowrap; */
+    width: 228px;
+  }
+  
+  .you-can-buy-skincare {
+    letter-spacing: 0;
+    /* line-height: 150px; */
+    margin-top: 7px;
+    min-height: 96px;
+    /* white-space: nowrap; */
+    width: 228px;
+  }
+  
+  .flex-row-7 {
+    align-items: flex-start;
+    display: flex;
+    margin-left: 194px;
+    margin-top: 98px;
+    min-width: 1530px;
+  }
+  
+  .rectangle-11 {
+    height: 201px;
+    margin-left: 29px;
+    width: 360px;
+  }
+  
+  .rectangle-9 {
+    height: 201px;
+    margin-left: 30px;
+    object-fit: cover;
+    width: 360px;
+  }
+  
+  .at-the-end-of-the-da {
+    letter-spacing: 0;
+    line-height: 150px;
+    margin-bottom: -126px;
+    /* margin-left: 2000px; */
+    margin-top: 14px;
+    min-height: 24px;
+    min-width: 756px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .flex-col-5 {
+    align-items: center;
+    background-color: 
+  #f7f8f9;
+    display: flex;
+    flex-direction: column;
+    margin-left: 194px;
+    margin-top: 200px;
+    min-height: 561px;
+    padding: 21px 0;
+    width: 1440px;
+  }
+  
+  .flex-col-9 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    min-height: 143px;
+    width: 1440px;
+  }
+  
+  .btn-4-1 {
+    align-items: flex-start;
+    background-image: url(https://anima-uploads.s3.amazonaws.com/projects/623471f2f5e4e17d76f28102/releases/62347231ec23883e8ed4c096/img/rectangle-4-1@2x.png);
+    background-size: 100% 100%;
+    display: flex;
+    height: 46px;
+    margin-left: 31px;
+    min-width: 115px;
+    padding: 10px 11.8px;
+  }
+  
+  .start-free-trail-1 {
+    letter-spacing: 0;
+    line-height: 50px;
+    min-height: 24px;
+    text-align: center;
+    white-space: nowrap;
+    margin-left: 10px;
+    width: 91px;
+  }
+  
+  .copyright {
+    letter-spacing: 0;
+    line-height: 50px;
+    margin-bottom: -129px;
+    margin-right: 8px;
+    margin-top: 19px;
+    min-height: 21px;
+    min-width: 262px;
+    white-space: nowrap;
+  }
+  
+  .rectangle-77 {
+    background-color: 
+  #c8c8c8;
+    height: 1px;
+    margin-top: 56px;
+    width: 1440px;
+  }
+  
+  .flex-row-9 {
+    align-items: flex-start;
+    display: flex;
+    height: 300px;
+    margin-right: 112px;
+    margin-top: 57px;
+    min-width: 1060px;
+  }
+  
+  .flex-col-8 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 87px;
+    min-height: 300px;
+    width: 517px;
+  }
+  
+  .get-in-touch {
+    height: 22px;
+    letter-spacing: 0;
+    min-width: 115px;
+    text-align: justify;
+  }
+  
+  .valign-text-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .overlap-group4 {
+    align-items: flex-start;
+    background-color: var(--white);
+    border-radius: 13px;
+    display: flex;
+    height: 120px;
+    margin-left: 1px;
+    margin-top: 18px;
+    min-width: 516px;
+    padding: 12px 17px;
+  }
+  
+  .your-message {
+    height: 24px;
+    letter-spacing: 0;
+    line-height: 150px;
+    min-width: 104px;
+    text-align: justify;
+    white-space: nowrap;
+  }
+  
+  .overlap-group5 {
+    align-items: flex-start;
+    background-color: var(--white);
+    border-radius: 13px;
+    display: flex;
+    height: 51px;
+    margin-left: 1px;
+    margin-top: 20px;
+    min-width: 516px;
+    padding: 12px 17px;
+  }
+  
+  .your-name {
+    height: 24px;
+    letter-spacing: 0;
+    line-height: 150px;
+    min-width: 79px;
+    text-align: justify;
+    white-space: nowrap;
+  }
+  
+  .overlap-group6 {
+    align-items: flex-start;
+    background-color: var(--white);
+    border-radius: 13px;
+    display: flex;
+    height: 51px;
+    margin-left: 1px;
+    margin-top: 18px;
+    min-width: 516px;
+    padding: 12px 17px;
+  }
+  
+  .your-email {
+    height: 24px;
+    letter-spacing: 0;
+    line-height: 150px;
+    min-width: 78px;
+    text-align: justify;
+    white-space: nowrap; 
+  }
+  
+  .flex-col-7 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 48px;
+    min-height: 184px;
+    width: 213px;
+  }
+  
+  .group-26 {
+    align-items: center;
+    display: flex;
+    height: 24px;
+    margin-left: 3px;
+    margin-top: 25px;
+    min-width: 160px;
+  }
+  
+  .vector-4 {
+    height: 18px;
+    margin-top: 2px;
+    width: 18px;
+  }
+  
+  .phone {
+    letter-spacing: 0;
+    line-height: 150px;
+    margin-left: 12px;
+    min-height: 24px;
+    min-width: 128px;
+    white-space: nowrap;
+  }
+  
+  .contact-info {
+    height: 22px;
+    letter-spacing: 0;
+    margin-left: 1px;
+    min-width: 115px;
+    text-align: justify;
+  }
+  
+  .group-27 {
+    align-items: center;
+    display: flex;
+    height: 24px;
+    margin-left: 1px;
+    margin-top: 24px;
+    min-width: 208px;
+  }
+  
+  .infodermagenicscom {
+    letter-spacing: 0;
+    line-height: 150px;
+    margin-left: 10px;
+    min-height: 24px;
+    min-width: 174px;
+    white-space: nowrap;
+    /* margin-right: 240px; */
+  }
+  
+  .vector-5 {
+    height: 16px;
+    width: 22px;
+  }
+  
+  .flex-row-10 {
+    align-items: flex-start;
+    display: flex;
+    height: 25px;
+    margin-top: 20px;
+    min-width: 213px;
+  }
+  
+  .x123-test-address {
+    letter-spacing: 0;
+    line-height: 150px;
+    margin-left: 9px;
+    min-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .akar-iconslocation {
+    align-items: center;
+    align-self: flex-end;
+    display: flex;
+    height: 24px;
+    padding: 0 4px;
+    width: 24px;
+  }
+  
+  .group-1 {
+    height: 20px;
+    width: 16px;
+  }
+  
+  .flex-col-6 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    min-height: 119px;
+    width: 195px;
+  }
+  
+  .image-2 {
+    height: 87px;
+    margin-left: 1px;
+    object-fit: cover;
+    width: 156px;
+  }
+  
+  .together-lets-beat-cancer-1 {
+    letter-spacing: 0;
+    /* line-height: 150px; */
+    margin-bottom: -126px;
+    margin-top: 8px;
+    min-height: 24px;
+    white-space: nowrap;
+    width: 195px;
+  }

@@ -1,0 +1,120 @@
+:root {
+  --black: 
+rgba(0, 0, 0, 1);
+  --midnight-blue: 
+rgba(2, 49, 111, 1);
+  --apple: 
+rgba(52, 161, 54, 1);
+  --sisal: 
+rgba(205, 205, 186, 1);
+  --wattle: 
+rgba(222, 207, 76, 1);
+  --mercury: 
+rgba(229, 229, 229, 1);
+  --white: 
+rgba(255, 255, 255, 1);
+
+  --font-size-s: 20px;
+  --font-size-m: 24px;
+  --font-size-l: 34px;
+  --font-size-xl: 96px;
+
+  --font-family-b612: "B612";
+}
+
+
+
+.b612-normal-wattle-34px {
+  color: var(--wattle);
+  font-family: var(--font-family-b612);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  font-style: normal;
+}
+.b612-normal-sisal-24px {
+  color: var(--sisal);
+  font-family: var(--font-family-b612);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+}
+.b612-normal-midnight-blue-34px {
+  color: var(--midnight-blue);
+  font-family: var(--font-family-b612);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  font-style: normal;
+}
+.b612-normal-mercury-96px {
+  color: var(--mercury);
+  font-family: var(--font-family-b612);
+  font-size: var(--font-size-xl);
+  font-weight: 400;
+  font-style: normal;
+}
+.b612-normal-mercury-24px {
+  color: var(--mercury);
+  font-family: var(--font-family-b612);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+}
+.b612-normal-apple-96px {
+  color: var(--apple);
+  font-family: var(--font-family-b612);
+  font-size: var(--font-size-xl);
+  font-weight: 400;
+  font-style: normal;
+}
+.b612-bold-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-b612);
+  font-size: var(--font-size-s);
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+.accordions {
+  align-items: flex-start;
+  background-color: 
+#141516;
+  display: flex;
+  height: 1845px;
+  padding: 0 41.5px;
+
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.x-_tick-mar-container {
+  /* align-items:center; */
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6234fd9ea68e67aa2dc7f1aa/releases/62350bf2a68e67aa2dc7f1c3/img/accordion-wrapper-1@2x.png );
+  background-position-x: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  margin-top: 6px;
+  min-height: 1828px;
+  padding: 251px 141.5px;
+
+}
+
+.x367-3672338_tick-mar-1 {
+  height: 59px;
+  margin-right: 5px;
+  margin-top: 796px;
+  object-fit: cover;
+  width: 52px;
+}
+
+.x367-3672338_tick-mar {
+  height: 59px;
+  object-fit: cover;
+  width: 52px;
+}
